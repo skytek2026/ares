@@ -6,10 +6,12 @@ Clickable prototype of ARES, the platform for authoring, reviewing and publishin
 
 - Login screen (any username and password works in this prototype)
 - Dashboard: procedures, review queue, Phase 1 and Phase 2 requests
-- Procedure editor: code and XML tag views, editable preview, steps, tools/parts/materials, notes and the lifecycle view
+- Procedure editor: code and XML tag views, editable preview, steps, tools/parts/materials, notes, images, review comments and the lifecycle view
 - Panels schedule: calendar of panel discussions and review due dates
 - Reports: organisation-wide overview with CSV export
 - Discrepancy notes: issues raised against procedures
+- Deliveries: groups of procedures sent to operators
+- Notifications: bell menu, full list with details, and notification settings
 - Admin: users, groups, books, panels and deliveries
 - Light and dark themes
 
