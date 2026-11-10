@@ -6,7 +6,7 @@
 <title>ARES</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
 <style>
 /* ===== Skytek Design System tokens (from project/styles.css) ===== */
 :root {
@@ -23,7 +23,7 @@
   --chrome-bg:#0B1220; --chrome-fg:#E5E7EB; --chrome-muted:#9CA3AF; --chrome-hover:#1B2536;
   --paper:#FFFFFF; --paper-ink:#111827; --paper-rule:#D1D5DB;
   --font-sans:"Inter","Open Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --font-display:"Space Grotesk","Inter",system-ui,sans-serif;
+  --font-display:"Exo","Inter",system-ui,sans-serif;
   --font-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
   --radius-xs:2px; --radius-sm:4px; --radius-md:6px; --radius-lg:8px; --radius-xl:12px; --radius-pill:9999px;
   --card-shadow-rest:0 2px 4px 0 rgb(15 23 42 / .08),0 1px 2px 0 rgb(15 23 42 / .06);
@@ -1888,6 +1888,10 @@ button.p-img-empty:hover { border-color:var(--brand-400); background:var(--brand
 /* My tasks: show and hide buttons the same size */
 .tasks-aside [data-act=tasks-toggle] { width:32px; height:32px; }
 .tasks-aside [data-act=tasks-toggle] .icon { width:18px; height:18px; }
+
+
+/* All headings use the display font (Exo) */
+h1, h2, h3, h4, h5, h6 { font-family:var(--font-display); }
 
 </style>
 </head>
